@@ -42,4 +42,7 @@ MonoBehaviour:
   - RequestForPickupItems
   - RequestForPickupTimes
   - TaggedPlayer
+  - RpcDestroy
+  - RpcSetParentCanvas
+  - RpcSetText
   DisableAutoOpenWizard: 1

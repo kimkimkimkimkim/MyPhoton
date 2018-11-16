@@ -16,6 +16,10 @@ public class Network : MonoBehaviour {
         // ルームに入室する
         PhotonNetwork.JoinRandomRoom();
     }
+
+	void OnCreatedRoom(){
+  		Debug.Log("ルームを作成しました。");
+ 	}
  
     // ルームに入室すると呼ばれる
     void OnJoinedRoom() {
